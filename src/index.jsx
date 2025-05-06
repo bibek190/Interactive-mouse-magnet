@@ -11,9 +11,10 @@ createRoot(document.getElementById("root")).render(
     <Canvas>
       <SpotLight
         position={[8, 4, 0]}
-        color="blue"
+        color="yellow"
         attenuation={10}
         distance={20}
+        angle={1}
       />
       <SpotLight
         position={[7, 4, 0]}

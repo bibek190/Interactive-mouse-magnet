@@ -9,5 +9,5 @@ Canvas {
   /* position: relative; */
   width: 100vw;
   height: 100vh;
-  background-color: #000000;
+  background: linear-gradient(45deg, rgb(53, 110, 118), rgb(129, 129, 208));
 }

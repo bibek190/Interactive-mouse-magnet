@@ -66,7 +66,7 @@ const Experience = () => {
           <BallCollider args={[1]} />
           <mesh>
             <sphereGeometry />
-            <meshStandardMaterial color={"gold"} />
+            <meshStandardMaterial color="#b9bb2b" />
           </mesh>
         </RigidBody>
       </Physics>
