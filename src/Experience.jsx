@@ -9,8 +9,6 @@ const Experience = () => {
   const cursor = useRef();
   const vec = new THREE.Vector3();
   const boxRef = useRef([]);
-  const model = useGLTF("./model/robot.glb");
-  console.log(model);
 
   useFrame(() => {
     cursor.current?.setNextKinematicTranslation(vec.set(1000, 1000, 0));
